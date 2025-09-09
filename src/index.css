@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-todo-dark: #1e1e1e;
+  --color-todo-light: #f9f9f9;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+@layer components {
+  
+}
+
+@layer utilities {
+
+}
